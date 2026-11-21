@@ -12,4 +12,14 @@ let result = sum(40, 70); // переменная со значением фун
 
 console.log(result);
 
+function checkAge(age) {
+  if (age >= 18) {
+    return "Доступ разрешен";
+  }
+
+  return "Доступ запрещен";
+}
+
+console.log(checkAge(18));
+
 
