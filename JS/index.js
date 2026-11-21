@@ -4,4 +4,12 @@ function sayHello(name, age, city) {
 
 sayHello("Alex", 18, "Тараз"); // вызов функции, передача аргумента
 
+function sum(a, b) {
+  return a + b;
+} // функция
+
+let result = sum(40, 70); // переменная со значением функции
+
+console.log(result);
+
 
