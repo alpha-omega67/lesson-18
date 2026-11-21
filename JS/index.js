@@ -22,4 +22,10 @@ function checkAge(age) {
 
 console.log(checkAge(18));
 
+const sum = (a, b) => {
+  return a * b;
+}; // стрелочные функции
 
+const sum2 = (a, b) => a * b; // только если сразу возвращаю значение
+
+console.log(sum2(20, 10));
