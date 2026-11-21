@@ -30,9 +30,21 @@
 
 // console.log(sum2(20, 10));
 
-const upRegister = (text) => text.toUpperCase();
+// const upRegister = (text) => text.toUpperCase();
 
-const downRegister = (text) => text.toLowerCase();
+// const downRegister = (text) => text.toLowerCase();
 
-console.log(upRegister("hello"));
-console.log(downRegister("HELLO"));
+// console.log(upRegister("hello"));
+// console.log(downRegister("HELLO"));
+
+const sumNumber = (number) => {
+  let sum = 0;
+
+  for (let i = 1; i <= number; i++) {
+    sum += i;
+  }
+
+  return sum;
+};
+
+console.log(sumNumber(5));
